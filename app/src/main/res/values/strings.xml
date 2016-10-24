@@ -1,0 +1,167 @@
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+    <string name="app_name">Locally</string>
+    <string name="action_settings">Settings</string>
+    <string name="tab_one">TAB ONE</string>
+    <string name="tab_two">TAB TWO</string>
+    <string name="email">Enter Email Address</string>
+    <string name="password">Enter Password</string>
+    <string name="repasswo">Confirm Password</string>
+    <string name="loginasdoctor">Doctor/Healthcare Provider</string>
+    <string name="loginaspatient">Patient/Healthcare Seeker</string>
+    <string name="signup">Get Registered</string>
+    <string name="login">    LOGIN    </string>
+    <string name="forgotpassword">Forgot Password</string>
+    <string name="alreadyregistered">Already Registered</string>
+    <string name="terms">By creating an account you agree to</string>
+    <string name="temsButton">Terms &amp; Conditions</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+
+    <string name="profile_email">sudhanshusnv@gmail.com</string>
+    <string name="profile_name">Name</string>
+    <string name="profile_contact">Contact</string>
+    <string name="profile_DOB">DOB</string>
+    <string name="profile_address">Mobile</string>
+    <string name="profile_health_interest">Health Interest</string>
+    <string name="profile_bload_group">Blood Group</string>
+    <string name="spinner_title">select</string>
+
+    <string name="title_activity_help">HelpActivity</string>
+
+    <string name="name">Name</string>
+    <string name="action_sign_in_short">Next</string>
+    <string name="qualification">Qualification</string>
+    <string name="contactno">Mobile</string>
+    <string name="emailid">Email</string>
+    <string name="specialisation">Specialisation</string>
+    <string name="city">City</string>
+    <string name="clinicAdd">clinicAdd</string>
+    <string name="time">Time</string>
+    <string name="fee">Fee</string>
+    <string name="registration">Registration No</string>
+    <string name="exp">Experience</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_main4">Main4Activity</string>
+    <string name="action_previous">Previous</string>
+    <string name="action_next">Next</string>
+    <string name="action_finish">Finish</string>
+    <string name="title_template_step">Step <xliff:g id="step_number">%1$d</xliff:g>: Lorem
+        Ipsum</string>
+    <string name="lorem_ipsum"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et magna ut erat elementum cursus in quis ipsum. Nam faucibus ultrices eros, vel tempor leo semper sit amet. Duis magna quam, congue vitae interdum nec, condimentum ut lectus. Sed commodo venenatis eros a dignissim. Nunc adipiscing turpis nec magna venenatis at ultricies ipsum bibendum. Sed volutpat urna quis nisi vulputate egestas. Etiam eu dui a enim lacinia dapibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.\n\nPhasellus orci mi, eleifend nec congue id, volutpat at neque. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer semper velit vel leo rutrum sed fermentum elit porta.]]></string>
+
+    <string name="help_txt"><b>Help ?</b> \nEmail : locally@gmail.com \nWeb : Locally.com  </string>
+
+    <string name="slide_1_title">Hello Food!</string>
+    <string name="slide_1_desc">The easiest way to order food from your favourite restaurant!</string>
+
+    <string name="slide_2_title">Movie Tickets</string>
+    <string name="slide_2_desc">Book movie tickets for your family and friends!</string>
+
+    <string name="slide_3_title">Great Discounts</string>
+    <string name="slide_3_desc">Best discounts on every single service we offer!</string>
+
+    <string name="slide_4_title">World Travel</string>
+    <string name="slide_4_desc">Book tickets of any transportation and travel the world!</string>
+
+    <string-array name="place_arrays">
+        <item>atm</item>
+        <item>accounting</item>
+        <item>airport</item>
+        <item>amusement_park</item>
+        <item>aquarium</item>
+        <item>art_gallery</item>
+        <item>bakery</item>
+        <item>bank</item>
+        <item>bar</item>
+        <item>beauty_salon</item>
+        <item>bicycle_store</item>
+        <item>book_store</item>
+        <item>bowling_alley</item>
+        <item>bus_station</item>
+        <item>cafe</item>
+        <item>campground</item>
+        <item>car_dealer</item>
+        <item>car_rental</item>
+        <item>car_repair</item>
+        <item>car_wash</item>
+        <item>casino</item>
+        <item>cemetery</item>
+        <item>church</item>
+        <item>city_hall</item>
+        <item>clothing_store</item>
+        <item>convenience_store</item>
+        <item>courthouse</item>
+        <item>dentist</item>
+        <item>department_store</item>
+        <item>doctor</item>
+        <item>electrician</item>
+        <item>electronics_store</item>
+        <item>embassy</item>
+        <item>establishment</item>
+        <item>finance</item>
+        <item>fire_station</item>
+        <item>florist</item>
+        <item>food</item>
+        <item>funeral_home</item>
+        <item>furniture_store</item>
+        <item>gas_station</item>
+        <item>general_contractor</item>
+        <item>grocery_or_supermarket</item>
+        <item>gym</item>
+        <item>hair_care</item>
+        <item>hardware_store</item>
+        <item>health</item>
+        <item>hindu_temple</item>
+        <item>home_goods_store</item>
+        <item>hospital</item>
+        <item>insurance_agency</item>
+        <item>jewelry_store</item>
+        <item>laundry</item>
+        <item>lawyer</item>
+        <item>library</item>
+        <item>liquor_store</item>
+        <item>local_government_office</item>
+        <item>locksmith</item>
+        <item>lodging</item>
+        <item>meal_delivery</item>
+        <item>meal_takeaway</item>
+        <item>mosque</item>
+        <item>movie_rental</item>
+        <item>movie_theater</item>
+        <item>moving_company</item>
+        <item>museum</item>
+        <item>night_club</item>
+        <item>painter</item>
+        <item>park</item>
+        <item>parking</item>
+        <item>pet_store</item>
+        <item>pharmacy</item>
+        <item>physiotherapist</item>
+        <item>place_of_worship</item>
+        <item>plumber</item>
+        <item>police</item>
+        <item>post_office</item>
+        <item>real_estate_agency</item>
+        <item>restaurant</item>
+        <item>roofing_contractor</item>
+        <item>rv_park</item>
+        <item>school</item>
+        <item>shoe_store</item>
+        <item>shopping_mall</item>
+        <item>spa</item>
+        <item>stadium</item>
+        <item>storage</item>
+        <item>store</item>
+        <item>subway_station</item>
+        <item>synagogue</item>
+        <item>taxi_stand</item>
+        <item>train_station</item>
+        <item>transit_station</item>
+        <item>travel_agency</item>
+        <item>university</item>
+        <item>veterinary_care</item>
+    </string-array>
+
+</resources>

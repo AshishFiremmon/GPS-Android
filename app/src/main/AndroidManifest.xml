@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.test_11.doctorappointmentapp" >
+
+
+    <permission
+        android:name="com.androidhive.googleplacesandmaps.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+    <uses-permission android:name="com.androidhive.googleplacesandmaps.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+
+
+    <application
+        android:name=".AppController"
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+
+
+        <activity
+            android:name=".MainActivityaug"
+            android:theme="@style/AppTheme.NoActionBar"
+            >
+
+        </activity>
+
+
+        <activity
+            android:name=".CompassActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            >
+
+         </activity>
+
+      <!--  <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyB8ZJtDQq96Vnb5E4RmV9oVJ2o7NI75WzY" />
+-->
+
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyC0d9OxhCCBaf8AmG932mNx_iwRDLUrdww" />
+
+        <activity android:name=".EnterActivity" >
+
+        </activity>
+
+        <activity android:name=".MapRotateTestActivity" >
+         </activity>
+
+
+        <activity android:name=".GooglePlacesActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+
+
+        </activity>
+        <activity android:name=".SplashScreen"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+       <activity android:name=".WelcomeActivity"
+           android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+            <activity android:name=".PlaceListActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            </activity>
+
+             <activity
+            android:name=".SettingActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+
+             </activity>
+
+        <activity
+            android:name=".MapActivity"
+            android:label="@string/title_activity_main4"
+            android:theme="@style/AppTheme.NoActionBar" >
+
+
+        </activity>
+        <activity
+            android:name=".SearchActivity"
+            android:label="@string/title_activity_main4"
+            android:theme="@style/AppTheme.NoActionBar" >
+
+
+        </activity>
+    </application>
+
+</manifest>

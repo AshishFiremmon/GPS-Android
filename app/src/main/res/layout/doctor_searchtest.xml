@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/appbar"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/topbar"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="5dp">
+
+                <Button
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/back"
+                    android:id="@+id/backBtn"
+                    />
+
+
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:background="@drawable/landmark"
+
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="gone"
+                    android:layout_alignParentRight="true"
+                    >
+                    <Button
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/help"
+                        android:id="@+id/help"
+                        />
+                    <Button
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/setting"
+                        android:id="@+id/settings"
+                        />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+
+
+
+        <fragment
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            class="com.google.android.gms.maps.MapFragment" />
+
+        <ImageView
+            android:id="@+id/imgCompass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/txtDegrees"
+            android:src="@drawable/ic_launcher" />
+        <TextView
+            android:id="@+id/txtDegrees"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/appbar"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/topbar"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="5dp">
+
+                <Button
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/back"
+                    android:id="@+id/backBtn"
+                    />
+
+
+
+                <TextView
+                    android:id="@+id/toptext"
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                 android:text="Naka Police Station"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+
+                    android:text="ROUTE"
+                    android:textSize="15sp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/colorAccent"
+
+                    />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="gone"
+                    android:layout_alignParentRight="true"
+                    >
+                    <Button
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/help"
+                        android:id="@+id/help"
+                        />
+                    <Button
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/setting"
+                        android:id="@+id/settings"
+                        />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+
+
+
+        <fragment
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            class="com.google.android.gms.maps.MapFragment" />
+
+
+        <TextView
+            android:id="@+id/addTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="250dp"
+            android:text="Naka Police Station"
+            android:layout_marginLeft="20dp"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:id="@+id/addTxt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="270dp"
+            android:text="Naka Police Station"
+            android:layout_marginLeft="20dp"
+
+            android:textSize="15sp"
+            />
+
+        <Button
+
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:text="Advertising Area"
+            android:textColor="@color/white"
+            android:background="@drawable/bottombar"
+
+            />
+
+
+    </RelativeLayout>
+
+</LinearLayout>
